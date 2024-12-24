@@ -2,16 +2,16 @@
   @apply pt-[115px] pb-[135px] relative;
 }
 .bannar_wrap .main {
-  @apply flex justify-between items-center;
+  @apply flex justify-center lg:justify-between items-center flex-wrap-reverse lg:flex-nowrap;
 }
 .bannar_wrap .contents-- {
-  @apply w-[537px];
+  @apply 2xl:w-[537px] w-[85%] pt-10 lg:pt-0;
 }
 .contents-- h1 {
-  @apply font-Train_One font-normal text-[59px] mb-5 text-white;
+  @apply font-Train_One font-normal text-[40px] sm:text-[59px] mb-5 text-white;
 }
 .contents-- h2 {
-  @apply font-Inter font-extrabold text-[66px] mb-7 text-white;
+  @apply font-Inter font-extrabold text-[40px] sm:text-[66px] mb-7 text-white;
 }
 .contents-- .pera {
   @apply font-Inter font-light text-[31px] text-white mb-[100px];
@@ -29,7 +29,7 @@
   @apply w-[15px] h-[15px] bg-[#00CF75] rounded-full block;
 }
 .profileContent {
-  @apply px-[46px] pb-[26px] w-[237px] bg-white rounded-[50px] absolute top-[346px] -left-[90px];
+  @apply px-[46px] pb-[26px] w-[237px] bg-white rounded-[50px] absolute top-[346px] -left-[90px] hidden md:block;
 }
 .profileContent h4 {
   @apply font-Inter font-extrabold text-[77px] text-black;

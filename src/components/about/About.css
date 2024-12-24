@@ -1,0 +1,57 @@
+.about {
+  @apply bg-white pt-[62px] pb-[85px];
+}
+.aboutTop {
+  @apply flex justify-center flex-wrap lg:flex-nowrap lg:justify-between items-center;
+}
+.aboutMe {
+  @apply w-[470px] mb-10 lg:mb-0;
+}
+.aboutMe h2 {
+  @apply font-Inter font-extrabold text-[50px] text-black mb-5;
+}
+.aboutMe p {
+  @apply font-Inter font-light text-black text-[29px] lg:mb-[120px] mb-[40px];
+}
+.aboutMe .socialIcons {
+  @apply flex items-center justify-between;
+}
+.socialIcons .cv {
+  @apply flex font-Inter font-bold text-white text-[18px] px-[35px] py-5 bg-[#101C1B] rounded-[27px] items-center gap-[10px];
+}
+.socialIcons .icons {
+  @apply flex gap-[13px];
+}
+.icons a {
+  @apply w-[50px] h-[50px] rounded-full;
+}
+.sign {
+  @apply w-[522px];
+}
+.sign p {
+  @apply font-Inter font-normal text-justify text-[20px] text-black mb-[28px];
+}
+.sign img {
+  @apply ml-[63px];
+}
+.aboutBottom {
+  @apply pt-[70px] flex gap-7 justify-center flex-wrap lg:flex-nowrap lg:justify-between items-center;
+}
+.aboutBottom .contect {
+  @apply 2xl:w-[634px] w-[100%];
+}
+.contect ul li {
+  @apply font-Inter font-bold text-black text-[22px] py-[18px] 2xl:w-[633px] w-full 2xl:h-[74px] odd:border odd:border-solid odd:border-[#000] odd:rounded-full pl-5 2xl:pl-[70px];
+}
+.skills {
+  @apply 2xl:w-[641px] xl:w-[100%] border-[5px] border-[#8E7AB8] border-solid rounded-[27px] p-6 flex justify-center flex-wrap gap-5;
+}
+.skills .boxs {
+  @apply 2xl:w-[280px] xl:w-[47%] 2xl:h-[200px] border-[11px] border-solid border-[#074643] rounded-[29px] flex justify-center items-center flex-col;
+}
+.boxs h4 {
+  @apply font-Inter font-extrabold text-[58px] text-black;
+}
+.boxs p {
+  @apply font-Inter font-semibold text-[22px] text-black;
+}

@@ -6,7 +6,7 @@
 }
 /* ======== Mobile Menu Here ========= */
 .menu {
-  @apply absolute -left-[450px] top-[65px] bg-[rgb(9,114,109)] w-[500px] py-5 shadow-lg rounded-lg;
+  @apply absolute z-10 -left-[450px] top-[65px] bg-[rgb(9,114,109)] w-[500px] py-5 shadow-lg rounded-lg;
   animation: menu 1s linear;
 }
 .menu ul {
