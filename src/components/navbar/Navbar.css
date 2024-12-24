@@ -1,0 +1,23 @@
+/* ========= Navbar Section Here ========== */
+.navbar_wrap {
+  @apply bg-[rgba(214,214,214,0.39)];
+}
+.navbar_wrap .main {
+  @apply flex justify-between py-[6.5px] items-center;
+}
+
+/* ========= Nav Part Here ========== */
+.navbar {
+  @apply flex items-center gap-[50px] 2xl:gap-[125px];
+}
+.navbar ul {
+  @apply flex;
+}
+.navbar ul li a {
+  @apply font-Inter font-semibold text-[22px] text-white py-2 2xl:py-3 px-3 2xl:px-5 hover:bg-[#101C1B] rounded-[27px] transition-all;
+}
+
+/* ========= CV Download Part ========== */
+.cv_download a {
+  @apply flex items-center font-Inter font-bold text-lg text-white uppercase gap-[10px] py-[17px] px-[32px] rounded-[27px] border-[3px] border-[#D4BFEC] border-solid hover:bg-[#101C1B] hover:border-[3px] hover:border-solid hover:border-[#101C1B] transition-all;
+}
